@@ -52,13 +52,13 @@ angular:
 
 5. Observe the results:
 
-```
-1. Simulated TurtleBot3 should start moving forward with 0.5 m/s velocity.
+    - Simulated TurtleBot3 should start moving forward with 0.5 m/s velocity.
 
-2. In the terminal where you’re running the ros1_bridge, you should see messages similar to the following:
-created 2to1 bridge for topic '/cmd_vel' with ROS 2 type 'geometry_msgs/msg/Twist' and ROS 1 type ''
-[INFO] [1693968527.777201784] [ros_bridge]: Passing message from ROS 2 geometry_msgs/msg/Twist to ROS 1 geometry_msgs/Twist (showing msg only once per type)
-[INFO] [1693968527.777518090] [ros_bridge]: Passing message from ROS 2 rcl_interfaces/msg/Log to ROS 1 rosgraph_msgs/Log (showing msg only once per type)created 2to1 bridge for topic '/cmd_vel' with ROS 2 type 'geometry_msgs/msg/Twist' and ROS 1 type ''
-[INFO] [1693968527.777201784] [ros_bridge]: Passing message from ROS 2 geometry_msgs/msg/Twist to ROS 1 geometry_msgs/Twist (showing msg only once per type)
-[INFO] [1693968527.777518090] [ros_bridge]: Passing message from ROS 2 rcl_interfaces/msg/Log to ROS 1 rosgraph_msgs/Log (showing msg only once per type)
-```
+    - In the terminal where you’re running the ros1_bridge, you should see messages similar to the following:
+      ```bash
+      created 2to1 bridge for topic '/cmd_vel' with ROS 2 type 'geometry_msgs/msg/Twist' and ROS 1 type ''
+      [INFO] [1693968527.777201784] [ros_bridge]: Passing message from ROS 2 geometry_msgs/msg/Twist to ROS 1 geometry_msgs/Twist (showing msg only once per type)
+      [INFO] [1693968527.777518090] [ros_bridge]: Passing message from ROS 2 rcl_interfaces/msg/Log to ROS 1 rosgraph_msgs/Log (showing msg only once per type)created 2to1 bridge for topic '/cmd_vel' with ROS 2 type 'geometry_msgs/msg/Twist' and ROS 1 type ''
+      [INFO] [1693968527.777201784] [ros_bridge]: Passing message from ROS 2 geometry_msgs/msg/Twist to ROS 1 geometry_msgs/Twist (showing msg only once per type)
+      [INFO] [1693968527.777518090] [ros_bridge]: Passing message from ROS 2 rcl_interfaces/msg/Log to ROS 1 rosgraph_msgs/Log (showing msg only once per type)
+      ```
