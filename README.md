@@ -53,7 +53,7 @@ angular:
 5. Observe the results:
 
 ```
-1. Simulated [TurtleBot3](https://github.com/Tinker-Twins/TurtleBot3) should start moving forward with 0.5 m/s velocity.
+1. Simulated TurtleBot3 should start moving forward with 0.5 m/s velocity.
 
 2. In the terminal where you’re running the ros1_bridge, you should see messages similar to the following:
 created 2to1 bridge for topic '/cmd_vel' with ROS 2 type 'geometry_msgs/msg/Twist' and ROS 1 type ''
