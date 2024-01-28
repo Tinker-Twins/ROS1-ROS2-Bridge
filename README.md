@@ -1,4 +1,4 @@
-# ROS1-ROS2-Bridge
+# ROS1-ROS2 Bridge
 
 > **Note:** Tested with [ROS 1 Noetic](https://wiki.ros.org/noetic) and [ROS 2 Foxy](https://docs.ros.org/en/foxy/index.html) on [Ubuntu 20.04](https://releases.ubuntu.com/focal).
 
